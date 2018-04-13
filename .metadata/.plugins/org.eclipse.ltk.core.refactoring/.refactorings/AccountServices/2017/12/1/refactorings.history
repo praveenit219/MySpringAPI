@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.pheonix.accounts.cnfig&apos; to &apos;com.pheonix.accounts.config&apos;&#x0A;- Original project: &apos;AccountServices&apos;&#x0A;- Original element: &apos;AccountServices/src/main/java/com.pheonix.accounts.cnfig&apos;&#x0A;- Renamed element: &apos;AccountServices/src/main/java/com.pheonix.accounts.config&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.pheonix.accounts.cnfig&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java&lt;com.pheonix.accounts.cnfig" name="com.pheonix.accounts.config" qualified="false" references="true" stamp="1514696873925" textual="false" version="1.0"/>
+</session>

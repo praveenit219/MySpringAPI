@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;CustomerService/src/main/java/com.pheonix.CustomerService.pojo&apos;&#x0A;- Original project: &apos;ProfileServie&apos;&#x0A;- Destination element: &apos;CustomerService/src/main/java/com.pheonix.CustomerService.pojo&apos;&#x0A;- Original elements:&#x0A;     com.pheonix.profile.pojo.Address.java&#x0A;     com.pheonix.profile.pojo.Customer.java" description="Copy compilation units" destination="=CustomerService/src\/main\/java&lt;com.pheonix.CustomerService.pojo" element1="/src\/main\/java&lt;com.pheonix.profile.pojo{Address.java" element2="/src\/main\/java&lt;com.pheonix.profile.pojo{Customer.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1514873914072" units="2" version="1.0"/>
+</session>

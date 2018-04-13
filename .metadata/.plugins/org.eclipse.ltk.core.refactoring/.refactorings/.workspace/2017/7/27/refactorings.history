@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;node_mine/node_mine/hellodataWrite.txt&apos;" deleteContents="false" description="Delete resource &apos;node_mine/node_mine/hellodataWrite.txt&apos;" element1="/node_mine/node_mine/hellodataWrite.txt" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1499503086450"/>
+</session>

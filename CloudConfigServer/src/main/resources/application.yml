@@ -1,0 +1,25 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: CloudConfigServer
+  profiles:
+    active: native
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: file:/Users/praveentirunamali/mine/projects/applicationconfig/CustomerService
+          #searchPaths: CustomerService*
+
+  
+logging:
+  level:
+    ROOT: INFO
+    org.springframework.boot.env.PropertySourcesLoader: DEBUG
+    org.springframework.cloud.config.server: DEBUG
+    
+management:
+  security:
+    enabled: false

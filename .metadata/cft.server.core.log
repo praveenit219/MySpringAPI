@@ -1,0 +1,6 @@
+Sat Apr 22 2017 08:35:16 PM - CloudFoundryServer.modifyModules(...): add: {} remove: { v5oAuthdemo [:external:v5oAuthdemo/org.eclipse.cft.server.core.CloudFoundryApplicationModule]}
+Sat Apr 22 2017 08:36:52 PM - CloudFoundryServer.modifyModules(...): add: { v5oauthdemo [org.eclipse.cft.server.core.StandAloneModuleFactory:v5oauthdemo/cloudfoundry.standalone.app]} remove: {}
+Sat Apr 22 2017 08:37:04 PM - CloudFoundryServer.modifyModules(...): add: {} remove: { v5oauthdemo [org.eclipse.cft.server.core.StandAloneModuleFactory:v5oauthdemo/cloudfoundry.standalone.app]}
+Sat Apr 22 2017 08:40:13 PM - CloudFoundryServer.modifyModules(...): add: { v5oAuthdemo [org.eclipse.cft.server.core.StandAloneModuleFactory:v5oAuthdemo/cloudfoundry.standalone.app]} remove: {}
+Sat Apr 22 2017 08:40:13 PM - CloudFoundryServer.modifyModules(...): add: {} remove: { v5oAuthdemo [org.eclipse.cft.server.core.StandAloneModuleFactory:v5oAuthdemo/cloudfoundry.standalone.app]}
+Sat Apr 22 2017 09:14:49 PM - CloudFoundryServer.modifyModules(...): add: { v5oAuthdemo [org.eclipse.cft.server.core.StandAloneModuleFactory:v5oAuthdemo/cloudfoundry.standalone.app]} remove: {}

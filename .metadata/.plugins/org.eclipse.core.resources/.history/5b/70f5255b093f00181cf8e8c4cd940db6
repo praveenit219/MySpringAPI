@@ -1,0 +1,24 @@
+package com.pheonix;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.web.servlet.FilterRegistrationBean;
+import org.springframework.context.annotation.Bean;
+
+import com.pheonix.config.ApiFilter;
+
+@SpringBootApplication
+public class SpringIpFilterinBootApplication {
+	@Bean
+	public FilterRegistrationBean dawsonApiFilter() {
+		FilterRegistrationBean registration = new FilterRegistrationBean();
+		registration.setFilter(new ApiFilter());
+		// In case you want the filter to apply to specific URL patterns only
+		registration.addUrlPatterns("/**");
+		return registration;
+	}
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringIpFilterinBootApplication.class, args);
+	}
+}

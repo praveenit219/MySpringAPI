@@ -1,0 +1,18 @@
+package com.pheonix.config;
+
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.stereotype.Component;
+
+@Component
+@EnableAutoConfiguration
+public class FilterConfig extends GenericFilterBean {
+ 
+    @Override
+    public void doFilter(
+      ServletRequest request, 
+      ServletResponse response,
+      FilterChain chain) throws IOException, ServletException {
+        chain.doFilter(request, response);
+    }
+
+}

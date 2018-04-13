@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.pheonix.mode&apos; to &apos;com.pheonix.model&apos;&#x0A;- Original project: &apos;SSOauthSimple&apos;&#x0A;- Original element: &apos;SSOauthSimple/src/main/java/com.pheonix.mode&apos;&#x0A;- Renamed element: &apos;SSOauthSimple/src/main/java/com.pheonix.model&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.pheonix.mode&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java&lt;com.pheonix.mode" name="com.pheonix.model" qualified="false" references="true" stamp="1516678325284" textual="false" version="1.0"/>
+</session>

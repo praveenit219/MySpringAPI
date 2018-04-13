@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;v5oauthdemo&apos; to &apos;v5oAuthdemo&apos;" description="Rename resource &apos;v5oauthdemo&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/v5oauthdemo" name="v5oAuthdemo" stamp="1492864665622" updateReferences="true"/>
+</session>

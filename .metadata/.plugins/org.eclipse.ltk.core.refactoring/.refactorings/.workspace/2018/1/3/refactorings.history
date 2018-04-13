@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;SecureRESTApiWithBasicAuthentication&apos;" deleteContents="true" description="Delete resource &apos;SecureRESTApiWithBasicAuthentication&apos;" element1="/SecureRESTApiWithBasicAuthentication" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1516071552974"/>&#x0A;<refactoring comment="Delete resource &apos;SpringSecurityLearnings&apos;" deleteContents="true" description="Delete resource &apos;SpringSecurityLearnings&apos;" element1="/SpringSecurityLearnings" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1516071561005"/>
+</session>
