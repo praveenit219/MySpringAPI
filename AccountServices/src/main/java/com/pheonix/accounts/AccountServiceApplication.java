@@ -12,7 +12,7 @@ import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
 @SpringBootApplication
 @EnableDiscoveryClient
 @EnableAsync
-//@EnableHystrixDashboard
+//@EnableHystrix
 //@EnableCircuitBreaker
 public class AccountServiceApplication {
 

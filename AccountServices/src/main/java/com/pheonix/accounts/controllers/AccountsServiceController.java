@@ -49,27 +49,38 @@ public class AccountsServiceController {
 
 			CompletableFuture.allOf(bankAccounts, insuranceAccounts, cardAccounts, thirdPartyCardAccounts).join();
 
-			
+
 			/*log.info("bankAccounts --> " + bankAccounts.get());
 			log.info("insuranceAccounts --> " + insuranceAccounts.get());
 			log.info("cardAccounts--> " + cardAccounts.get());
 			log.info("thirdPartyCardAccounts--> " + thirdPartyCardAccounts.get());*/
 
-			
+
 			List<BankAccounts> bankaccountsobj = new ArrayList<BankAccounts>();
-			bankaccountsobj.add(bankAccounts.get());
+			if(bankAccounts.isDone()) {
+				bankaccountsobj.add(bankAccounts.get());
+			}
+			
 			List<CardAccounts> cardaccountsobj = new ArrayList<CardAccounts>();
-			cardaccountsobj.add(cardAccounts.get());
+			if(cardAccounts.isDone()) {
+				cardaccountsobj.add(cardAccounts.get());
+			}
+			
 			List<CardThirdPartyAccounts> cardThirdpartyobj = new ArrayList<CardThirdPartyAccounts>();
-			cardThirdpartyobj.add(thirdPartyCardAccounts.get());
+			if(thirdPartyCardAccounts.isDone()) {
+				cardThirdpartyobj.add(thirdPartyCardAccounts.get());
+			}
+			
 			List<InsuranceAccounts> insuranceaccountsobj = new ArrayList<InsuranceAccounts>();
-			insuranceaccountsobj.add(insuranceAccounts.get());
+			if(insuranceAccounts.isDone()) {
+				insuranceaccountsobj.add(insuranceAccounts.get());
+			}
 
 			accounts.setBankAccounts(bankaccountsobj);
 			accounts.setCardAccounts(cardaccountsobj);
 			accounts.setCardThirdPartyAccounts(cardThirdpartyobj);
 			accounts.setInsuranceAccounts(insuranceaccountsobj);
-			
+
 			log.info("AggregatedAccounts: " + accounts);
 			log.info("Elapsed time: " + (System.currentTimeMillis() - start));
 

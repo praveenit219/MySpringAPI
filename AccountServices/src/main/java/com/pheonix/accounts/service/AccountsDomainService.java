@@ -81,7 +81,7 @@ public class AccountsDomainService {
 	}
 
 	@Async
-	//@HystrixCommand(fallbackMethod = "getCardsAccountsFromDomain_Fallback")
+	//O@HystrixCommand(fallbackMethod = "getCardsAccountsFromDomain_Fallback")
 	public CompletableFuture<CardAccounts> getCardsAccountsFromDomain() throws InterruptedException {
 		log.info("firing creditcards domain accounts through eureka loadbalanced");
 		String url = null;
