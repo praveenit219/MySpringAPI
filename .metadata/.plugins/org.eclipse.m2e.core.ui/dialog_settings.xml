@@ -39,6 +39,21 @@
 		<item value="85" key="y"/>
 		<item value="489" key="height"/>
 	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="/Users/praveentirunamali/mine/projects/spring"/>
+			<item value="/Users/praveentirunamali/mine/projects/springboot-jenkins-standalone-linux"/>
+			<item value="/Users/praveentirunamali/mine/projects/springbootjenkins/springboot-jenkins-standalone-linux"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
 	<section name="MavenProjectWizardArchetypePage">
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

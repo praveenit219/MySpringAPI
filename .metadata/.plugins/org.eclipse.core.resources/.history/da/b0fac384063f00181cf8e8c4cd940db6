@@ -1,8 +1,0 @@
-package com.pheonix.controller;
-
-import org.springframework.web.bind.annotation.RestController;
-
-@RestController
-public class RequestsController {
-
-}
