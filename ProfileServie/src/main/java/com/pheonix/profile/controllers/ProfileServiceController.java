@@ -1,7 +1,7 @@
 package com.pheonix.profile.controllers;
 
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -15,7 +15,7 @@ import com.pheonix.profile.services.ProfileDomainService;
 @RestController
 public class ProfileServiceController {
 
-	private static final Log log = LogFactory.getLog(ProfileServiceController.class);
+	private static final Logger log = LoggerFactory.getLogger(ProfileServiceController.class);
 	
 	@Autowired
 	ProfileDomainService profileDomainService;

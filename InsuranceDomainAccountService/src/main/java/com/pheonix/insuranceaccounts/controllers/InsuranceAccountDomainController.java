@@ -1,7 +1,7 @@
 package com.pheonix.insuranceaccounts.controllers;
 
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -15,7 +15,7 @@ import com.pheonix.insuranceaccounts.services.InsuranceDomainService;
 @RestController
 public class InsuranceAccountDomainController {
 	
-private static final Log log = LogFactory.getLog(InsuranceAccountDomainController.class);
+private static final Logger log = LoggerFactory.getLogger(InsuranceAccountDomainController.class);
 
 	@Autowired
 	InsuranceDomainService insuranceDomainService;

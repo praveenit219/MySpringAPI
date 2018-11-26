@@ -3,8 +3,8 @@ package com.pheonix.CustomerService.controllers;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;
 
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -21,7 +21,7 @@ import com.pheonix.CustomerService.services.CustomerDomainService;
 @RestController
 public class CustomerServiceController {
 
-	private static final Log log = LogFactory.getLog(CustomerServiceController.class);
+	private static final Logger log = LoggerFactory.getLogger(CustomerServiceController.class);
 
 	@Autowired
 	CustomerDomainService customerDomainService;

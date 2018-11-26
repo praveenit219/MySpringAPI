@@ -1,7 +1,9 @@
 package com.pheonix.bankaccounts.controllers;
 
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
+
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -12,10 +14,12 @@ import org.springframework.web.bind.annotation.RestController;
 import com.pheonix.bankaccounts.pojo.BankAccounts;
 import com.pheonix.bankaccounts.services.BankDomainService;
 
+
+
 @RestController
 public class BankAccountDomainController {
 
-	private static final Log log = LogFactory.getLog(BankAccountDomainController.class);
+	private static final Logger log = LoggerFactory.getLogger(BankAccountDomainController.class);
 	
 	@Autowired
 	BankDomainService bankDomainService;

@@ -1,7 +1,8 @@
 package com.pheonix.cardaccounts.services;
 
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 
 import com.pheonix.cardaccounts.pojo.Balance;
@@ -10,7 +11,7 @@ import com.pheonix.cardaccounts.pojo.CardAccounts;
 @Service
 public class CardDomainService {
 
-	private static final Log log = LogFactory.getLog(CardDomainService.class);
+	private static final Logger log = LoggerFactory.getLogger(CardDomainService.class);
 
 	public CardAccounts cardAccounts() {
 		log.info("inside the bankAccounts Service");

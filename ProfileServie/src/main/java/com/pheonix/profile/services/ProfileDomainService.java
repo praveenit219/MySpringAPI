@@ -1,7 +1,7 @@
 package com.pheonix.profile.services;
 
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 
 import com.pheonix.profile.pojo.Address;
@@ -10,7 +10,7 @@ import com.pheonix.profile.pojo.Customer;
 @Service
 public class ProfileDomainService {
 
-	private static final Log log = LogFactory.getLog(ProfileDomainService.class);
+	private static final Logger log = LoggerFactory.getLogger(ProfileDomainService.class);
 
 	public Customer customerInformation() {
 		log.info("inside the customer information Service");

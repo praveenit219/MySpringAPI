@@ -1,7 +1,7 @@
 package com.pheonix.insuranceaccounts.services;
 
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 
 import com.pheonix.insuranceaccounts.pojo.Balance;
@@ -10,7 +10,7 @@ import com.pheonix.insuranceaccounts.pojo.InsuranceAccounts;
 @Service
 public class InsuranceDomainService {
 
-	private static final Log log = LogFactory.getLog(InsuranceDomainService.class);
+	private static final Logger log = LoggerFactory.getLogger(InsuranceDomainService.class);
 
 	public InsuranceAccounts insuranceAccounts() {
 		log.info("inside the insuranceAccounts Service");

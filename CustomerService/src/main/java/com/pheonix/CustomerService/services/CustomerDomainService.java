@@ -2,8 +2,8 @@ package com.pheonix.CustomerService.services;
 
 import java.util.concurrent.CompletableFuture;
 
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
@@ -18,7 +18,7 @@ import com.pheonix.CustomerService.pojo.Customer;
 @Service
 public class CustomerDomainService {
 	
-	private static final Log log = LogFactory.getLog(CustomerDomainService.class);
+	private static final Logger log = LoggerFactory.getLogger(CustomerDomainService.class);
 
 	@Autowired
 	RestTemplate restTemplate;

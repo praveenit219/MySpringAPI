@@ -1,7 +1,7 @@
 package com.pheonix.bankaccounts.services;
 
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 
 import com.pheonix.bankaccounts.pojo.Balance;
@@ -10,7 +10,7 @@ import com.pheonix.bankaccounts.pojo.BankAccounts;
 @Service
 public class BankDomainService {
 	
-	private static final Log log = LogFactory.getLog(BankDomainService.class);
+	private static final Logger log = LoggerFactory.getLogger(BankDomainService.class);
 
 	
 	public BankAccounts bankAccounts() {
